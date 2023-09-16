@@ -1,0 +1,433 @@
+@charset "utf-8";
+/* CSS Document */
+
+<style type="text/css">
+#body {
+	
+	font-family: Vivaldi;
+	font-size: 45px;
+	font-weight: 900;
+	background-color: #FFF;
+	color: #FFF;
+}
+#Prev {
+
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: block;
+	float: left;
+	height: 650px;
+	width: 100px;
+	position: relative;
+	z-index: 99;
+}
+#Next {
+	
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: block;
+	float: right;
+	height: 650px;
+	width: 100px;
+	position: relative;
+	z-index: 99;
+}
+#Container {
+	width: 1250px;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	border: 0px solid #FFF;
+}
+
+.NavContainer{
+	border-bottom: 1px solid #000
+	width: 90%;
+	margin: 0 auto;		
+}
+
+
+header{
+	background: #FFF;
+	font-family: 'Bahnschrift', Bahnschrift;
+	font-weight: 400;
+}
+
+header::after {
+	content:'';
+	display: table;
+	clear: both;
+}
+
+.logo{
+	float:left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 60px;
+}
+nav{
+	float:right;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+		
+nav ul {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+nav li {
+	display: inline-block;
+	margin-left : 0px;
+	padding-top: 35px;
+			
+}
+.nav-link {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #444;
+  padding: 20px 0px;
+  margin: 0px 20px;
+  display: inline-block;
+  position: relative;
+  opacity: 0.90;
+  
+}
+
+
+.nav-link:hover {
+  opacity: 1;
+}
+
+.nav-link::before {
+  transition: all ease-in-out 250ms;
+  height: 3px;
+  content: "";
+  position: absolute;
+  background-color: #000;
+}
+
+.nav-link-ltr::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.nav-link-ltr:hover::before {
+  width: 100%;
+}
+
+#SliderContainer {
+	display: block;
+	float: none;
+	height: 650px;
+	width: 1250px;
+	overflow: auto;
+}
+#Slider {
+	display: block;
+	float: none;
+	height: 650px;
+	width: 1250px;
+	overflow: hidden;
+	position: absolute;
+}
+#SliderWrapper {
+	height: 650px;
+	width: 1250px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-size: 14px;
+	background-repeat: no-repeat;
+	background-image: none;
+	display: block;
+	margin: auto;
+}
+#Ozellikler {
+	height: 160px;
+	width: 1250px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #FFF;
+}
+#Best1 {
+	height: 150px;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+	font-family: Bahnschrift;
+	font-weight: normal;
+	color: #000;
+	font-size: 18px;
+	text-align: justify;
+}
+
+#Best2 {
+	float: none;
+	height: 150px;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-size: 18px;
+	color: #000;
+	font-family: Bahnschrift;
+	font-weight: normal;
+	text-align: justify;
+}
+#Best3 {
+	float: right;
+	height: 150px;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-family: Bahnschrift;
+	font-size: 18px;
+	font-weight: normal;
+	color: #000;
+	text-align: justify;
+}
+#Best1Title {
+	height: auto;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Bahnschrift;
+	font-size: 24px;
+	font-weight: normal;
+	color: #000;
+	border-bottom-width: thick;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	margin-top: 20px;
+}
+#Best2Title {
+	height: auto;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom-width: thick;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	font-family: Bahnschrift;
+	font-size: 24px;
+	font-weight: normal;
+	color: #000;
+	margin-top: 20px;
+}
+#Best3Title {
+	font-family: Bahnschrift;
+	font-size: 24px;
+	font-weight: normal;
+	color: #000;
+	height: auto;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom-width: thick;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	margin-top: 20px;
+}
+#GreetingWriting1 {
+	height: 100px;
+	width: 1250px;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: normal;
+	border: 0px solid #FFF;
+	color: #000;
+	font-family: Bahnschrift;
+	background-color: #EEE;
+	margin-top: 20px;
+}
+#GreetingWriting2 {
+	height: 400px;
+	width: 1250px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #666;
+	font-family: Bahnschrift;
+	font-size: 24px;
+	font-style: normal;
+	background-color: #EEE;
+	font-weight: normal;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #EEE;
+	border-right-color: #EEE;
+	border-bottom-color: #EEE;
+	border-left-color: #EEE;
+}
+#AcıklamaPhoto {
+	height: auto;
+	width: auto;
+	margin-right: auto;
+	margin-left: 40px;
+	border: 0px solid #FFF;
+	float: left;
+}
+#Acıklama {
+	float: right;
+	height: 300px;
+	width: 700px;
+	margin-right: 50px;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	margin-top: 20px;
+	font-family: Bahnschrift;
+	font-size: 18px;
+	text-align: justify;
+	color: #000;
+}
+#Quote {
+	height: auto;
+	width: 1250px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-family: Bahnschrift;
+	font-size: 36px;
+	color: #000;
+	font-weight: normal;
+	background-color: #FFF;
+}
+#Hosgeldiniz {
+	height: auto;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom-width: thick;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	padding-top: 20px;
+	font-size: 36px;
+}
+
+#BigPhotos {
+	height: auto;
+	width: 1250px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+
+#Comments {
+	background-color: #FFF;
+	height: auto;
+	width: 1250px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Bahnschrift;
+	font-size: 24px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-style: italic;
+}
+
+#CommentsTitle {
+	font-family: Bahnschrift;
+	font-weight: normal;
+	color: #000;
+	height: auto;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom-width: thick;
+	border-bottom-style: solid;
+	background-color: #FFF;
+	font-size: 36px;
+	margin-top: 30px;
+	border-bottom-color: #000;
+}
+#Footer {
+	height: 150px;
+	width: 1250px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	background-color: #333;
+	font-family: Bahnschrift;
+	font-weight: normal;
+	color: #FFF;
+	margin-top: 10px;
+}
+#FooterText {
+	height: auto;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	padding-top: 25px;
+}
+
+</style>

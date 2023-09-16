@@ -1,0 +1,357 @@
+@charset "utf-8";
+/* CSS Document */
+
+<style type="text/css">
+#body {
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#Container {
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+#Footer {
+	height: 150px;
+	width: 1250px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	background-color: #333;
+	font-family: Bahnschrift;
+	font-weight: normal;
+	color: #FFF;
+}
+#FooterText {
+	height: auto;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	padding-top: 25px;
+}
+
+.NavContainer{
+	border-bottom: 1px solid #000
+	width: 90%;
+	margin: 0 auto;		
+}
+
+
+header{
+	background: #FFF;
+	font-family: 'Bahnschrift', Bahnschrift;
+	font-weight: 400;
+}
+
+header::after {
+	content:'';
+	display: table;
+	clear: both;
+}
+
+.logo{
+	float:left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 60px;
+}
+nav{
+	float:right;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+		
+nav ul {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+nav li {
+	display: inline-block;
+	margin-left : 0px;
+	padding-top: 35px;
+			
+}
+.nav-link {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #444;
+  padding: 20px 0px;
+  margin: 0px 20px;
+  display: inline-block;
+  position: relative;
+  opacity: 0.90;
+  
+}
+
+
+.nav-link:hover {
+  opacity: 1;
+}
+
+.nav-link::before {
+  transition: all ease-in-out 250ms;
+  height: 3px;
+  content: "";
+  position: absolute;
+  background-color: #000;
+}
+
+.nav-link-ltr::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.nav-link-ltr:hover::before {
+  width: 100%;
+}
+#SalonResim {
+	margin-right: auto;
+	margin-left: auto;
+	height: 320px;
+	width: 1250px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+	
+#Explanation {
+	height: auto;
+	width: 1150px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	margin-top: 20px;
+	font-family: Bahnschrift;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 30px;
+	text-align: justify;
+	vertical-align: middle;
+}
+#ProductsContainer {
+	height: auto;
+	width: 1250px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	margin-top: 40px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+#KerastaseTitle {
+	float: left;
+	margin-right: auto;
+	margin-left: 50px;
+	border-bottom-width: medium;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	font-size: 30px;
+	height: auto;
+	width: auto;
+	margin-top: 20px;
+	font-family: Bahnschrift;
+}
+#Pics {
+	height: auto;
+	width: 350px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	float: left;
+	margin-top: 20px;
+}
+#Kerastase {
+	height: 250px;
+	width: 350px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+#Loreal {
+	height: 250px;
+	width: 350px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	margin-top: 60px;
+}
+#Products {
+	height: 900px;
+	width: 1150px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	margin-top: 40px;
+}
+#KerastaseText {
+	height: 180px;
+	width: 750px;
+	margin-right: auto;
+	margin-left: 50px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	margin-top: 10px;
+	float: left;
+	font-family: Bahnschrift;
+	font-size: 18px;
+	text-align: justify;
+}
+#Wella {
+	height: 250px;
+	width: 350px;
+	margin-top: 60px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+#LorealTitle {
+	height: auto;
+	width: 360px;
+	margin-right: auto;
+	margin-left: 50px;
+	border-bottom-width: medium;
+	border-bottom-style: solid;
+	font-family: Bahnschrift;
+	font-size: 30px;
+	border-bottom-color: #000;
+	float: left;
+	margin-top: 80px;
+}
+#LorealText {
+	height: 180px;
+	width: 750px;
+	margin-right: auto;
+	margin-left: 50px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	float: left;
+	margin-top: 10px;
+	text-align: justify;
+	font-family: Bahnschrift;
+	font-size: 18px;
+}
+#WellaTitle {
+	float: left;
+	height: auto;
+	width: 350px;
+	margin-right: auto;
+	margin-left: 50px;
+	border-bottom-width: medium;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	font-size: 30px;
+	font-family: Bahnschrift;
+	margin-top: 80px;
+}
+#WellaText {
+	float: right;
+	height: 180px;
+	width: 750px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	margin-top: 10px;
+	font-family: Bahnschrift;
+	font-size: 18px;
+	text-align: justify;
+}
+</style>

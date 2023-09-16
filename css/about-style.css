@@ -1,0 +1,309 @@
+@charset "utf-8";
+/* CSS Document */
+
+<style type="text/css">
+#body {
+	background-color: #FFF;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#Container {
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid #000;
+}
+.NavContainer{
+	border-bottom: 1px solid #000
+	width: 90%;
+	margin: 0 auto;		
+}
+
+
+header{
+	background: #FFF;
+	font-family: 'Bahnschrift', Bahnschrift;
+	font-weight: 400;
+}
+
+header::after {
+	content:'';
+	display: table;
+	clear: both;
+}
+
+.logo{
+	float:left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 60px;
+}
+nav{
+	float:right;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+		
+nav ul {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+nav li {
+	display: inline-block;
+	margin-left : 0px;
+	padding-top: 35px;
+			
+}
+.nav-link {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #444;
+  padding: 20px 0px;
+  margin: 0px 20px;
+  display: inline-block;
+  position: relative;
+  opacity: 0.90;
+  
+}
+
+
+.nav-link:hover {
+  opacity: 1;
+}
+
+.nav-link::before {
+  transition: all ease-in-out 250ms;
+  height: 3px;
+  content: "";
+  position: absolute;
+  background-color: #000;
+}
+
+.nav-link-ltr::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.nav-link-ltr:hover::before {
+  width: 100%;
+}
+#SalonResim {
+	height: 320px;
+	width: 1250px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+#EkibimizTitle {
+	height: auto;
+	width: 180px;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom-width: medium;
+	border-bottom-style: solid;
+	margin-top: 20px;
+	font-family: Bahnschrift;
+	font-size: 36px;
+	font-weight: normal;
+	border-bottom-color: #333;
+}
+#CengizSark {
+	height: 400px;
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	margin-top: 20px;
+}
+#CengizPhoto {
+	float: left;
+	height: 370px;
+	width: 285px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+#CengizAcıklama {
+	float: right;
+	height: auto;
+	width: 750px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid #FFF;
+	font-family: Bahnschrift;
+	font-size: 18px;
+	font-weight: normal;
+	margin-top: 30px;
+	text-align: justify;
+}
+#Ekiptekiler {
+	height: 400px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid #FFF;
+	margin-top: 30px;
+}
+#Footer {
+	height: 150px;
+	width: 1250px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	background-color: #333;
+	font-family: Bahnschrift;
+	font-weight: normal;
+	color: #FFF;
+}
+#FooterText {
+	height: auto;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	padding-top: 25px;
+}
+#Hakkımızda2 {
+	float: right;
+	height: auto;
+	width: auto;
+	margin-right: 50px;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	margin-top: 90px;
+}
+#MisVizTitle {
+	height: auto;
+	width: 500px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom-width: thick;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	font-family: Bahnschrift;
+	font-size: 36px;
+}
+#MisViz {
+	height: 400px;
+	width: 1250px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	margin-top: 20px;
+	background-color: #EEE;
+}
+#MisVizYazı {
+	height: auto;
+	width: 700px;
+	margin-right: 40px;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	font-family: Bahnschrift;
+	font-size: 18px;
+	font-weight: normal;
+	color: #000;
+	padding-top: 60px;
+	text-align: justify;
+}
+#E1 {
+	float: left;
+	height: 350px;
+	width: 200px;
+	margin-right: auto;
+	margin-left: 200px;
+	border: thick solid #999;
+	font-family: Bahnschrift;
+	font-size: 18px;
+	font-weight: normal;
+}
+#MisVizPhoto {
+	float: left;
+	height: auto;
+	width: 300px;
+	margin-right: auto;
+	margin-left: 60px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	margin-top: 25px;
+}
+
+#E2 {
+	float: right;
+	height: 350px;
+	width: 200px;
+	margin-right: 200px;
+	margin-left: auto;
+	font-family: Bahnschrift;
+	font-size: 18px;
+	font-weight: normal;
+	border: thick solid #999;
+}
+
+</style>

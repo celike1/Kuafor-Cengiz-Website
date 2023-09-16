@@ -1,0 +1,392 @@
+@charset "utf-8";
+/* CSS Document */
+
+<style type="text/css">
+#body {
+	background-color: #FFF;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#Container {
+	height: auto;
+	width:  100%;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid #FFF;
+}
+.NavContainer{
+	border-bottom: 1px solid #000
+	width: 90%;
+	margin: 0 auto;		
+}
+
+
+header{
+	background: #FFF;
+	font-family: 'Bahnschrift', Bahnschrift;
+	font-weight: 400;
+}
+
+header::after {
+	content:'';
+	display: table;
+	clear: both;
+}
+
+.logo{
+	float:left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 60px;
+}
+nav{
+	float:right;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+		
+nav ul {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+nav li {
+	display: inline-block;
+	margin-left : 0px;
+	padding-top: 35px;
+			
+}
+.nav-link {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #444;
+  padding: 20px 0px;
+  margin: 0px 20px;
+  display: inline-block;
+  position: relative;
+  opacity: 0.90;
+  
+}
+
+
+.nav-link:hover {
+  opacity: 1;
+}
+
+.nav-link::before {
+  transition: all ease-in-out 250ms;
+  height: 3px;
+  content: "";
+  position: absolute;
+  background-color: #000;
+}
+
+.nav-link-ltr::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.nav-link-ltr:hover::before {
+  width: 100%;
+}
+
+#SalonResmi {
+	height: 320px;
+	width:  100%;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+#Uyari {
+	height: auto;
+	width: 1150px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-family: Bahnschrift;
+	font-size: 18px;
+	font-weight: normal;
+	color: #333;
+	float: none;
+}
+#ServiceContainer {
+	background-color: #F2F2F2;
+	height: 1230px;
+	width: 1250px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+#Markalar {
+	height: auto;
+	width: 1250px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+#Footer {
+	height: 150px;
+	width: 1250px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	background-color: #333;
+	font-family: Bahnschrift;
+	font-weight: normal;
+	color: #FFF;
+}
+#FooterText {
+	height: auto;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	padding-top: 25px;
+}
+#Servis {
+	height: auto;
+	width: 1150px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid #FFF;
+	padding-top: 40px;
+}
+#Sac {
+	height: 60px;
+	width: 700px;
+	margin-right: auto;
+	margin-left: 0px;
+	font-family: Bahnschrift;
+	font-size: 36px;
+	font-weight: normal;
+	color: #333;
+	border-bottom-style: solid;
+	border-bottom-width: thick;
+	border-bottom-color: #333;
+	clear: left;
+}
+#SacAciklama {
+	height: 100px;
+	width: 700px;
+	margin-right: auto;
+	margin-left: 0px;
+	border: 0px solid #FFF;
+	font-family: Bahnschrift;
+	font-size: 18px;
+	font-weight: normal;
+	margin-top: 20px;
+	text-align: justify;
+}
+#SacListe {
+	height: auto;
+	width: 700px;
+	margin-right: auto;
+	margin-left: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-family: Bahnschrift;
+	font-size: 18px;
+	font-weight: normal;
+}
+#MakyajTitle {
+	height: 60px;
+	width: 700px;
+	margin-right: auto;
+	margin-left: 0px;
+	border-bottom-width: thick;
+	border-bottom-style: solid;
+	font-family: Bahnschrift;
+	font-size: 36px;
+	font-weight: normal;
+	border-bottom-color: #333;
+}
+#MakyajAciklama {
+	height: auto;
+	width: 700px;
+	margin-right: auto;
+	margin-left: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-family: Bahnschrift;
+	font-size: 18px;
+	font-weight: normal;
+	margin-top: 20px;
+}
+#MakyajListe {
+	height: auto;
+	width: 700px;
+	margin-right: auto;
+	margin-left: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-family: Bahnschrift;
+	font-size: 18px;
+	font-weight: normal;
+	margin-top: 20px;
+}
+#ElAyakBakimTitle {
+	height: 60px;
+	width: 700px;
+	margin-right: auto;
+	margin-left: 0px;
+	border-bottom-width: thick;
+	border-bottom-style: solid;
+	font-family: Bahnschrift;
+	font-size: 36px;
+	font-weight: normal;
+	border-bottom-color: #333;
+	margin-top: 20px;
+}
+#ElAyakAciklama {
+	height: auto;
+	width: 700px;
+	margin-right: auto;
+	margin-left: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-family: Bahnschrift;
+	font-size: 18px;
+	font-weight: normal;
+	margin-top: 20px;
+	text-align: justify;
+}
+#ElAyakListe {
+	height: auto;
+	width: 700px;
+	margin-right: auto;
+	margin-left: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-family: Bahnschrift;
+	font-size: 18px;
+	font-weight: normal;
+	margin-top: 20px;
+}
+#Pics {
+	float: right;
+	height: auto;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid #FFF;
+}
+#Pic1 {
+	height: 400px;
+	width: 350px;
+	margin-right: 0px;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	margin-top: 80px;
+}
+#Pic2 {
+	height: auto;
+	width: 350px;
+	margin-right: 0px;
+	margin-left: auto;
+	margin-top: 60px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+#Pic3 {
+	height: 250px;
+	width: 350px;
+	margin-right: 0px;
+	margin-left: auto;
+	margin-top: 60px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+</style>

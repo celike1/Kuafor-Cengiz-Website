@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+
+<style type="text/css">
+#body {
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+#Container {
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+#GalleryTitle {
+	height: auto;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom-width: thick;
+	border-bottom-style: solid;
+	font-family: Bahnschrift;
+	font-size: 36px;
+	border-bottom-color: #000;
+}
+#Video {
+	height: auto;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+
+
+.NavContainer{
+	border-bottom: 1px solid #000
+	width: 90%;
+	margin: 0 auto;		
+}
+
+
+header{
+	background: #FFF;
+	font-family: 'Bahnschrift', Bahnschrift;
+	font-weight: 400;
+}
+
+header::after {
+	content:'';
+	display: table;
+	clear: both;
+}
+
+.logo{
+	float:left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 60px;
+}
+nav{
+	float:right;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+		
+nav ul {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+nav li {
+	display: inline-block;
+	margin-left : 0px;
+	padding-top: 35px;
+			
+}
+.nav-link {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #444;
+  padding: 20px 0px;
+  margin: 0px 20px;
+  display: inline-block;
+  position: relative;
+  opacity: 0.90;
+  
+}
+
+
+.nav-link:hover {
+  opacity: 1;
+}
+
+.nav-link::before {
+  transition: all ease-in-out 250ms;
+  height: 3px;
+  content: "";
+  position: absolute;
+  background-color: #000;
+}
+
+.nav-link-ltr::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.nav-link-ltr:hover::before {
+  width: 100%;
+}
+
+img {
+	max-width: 100%;
+	
+}
+#GalleryContainer {
+	height: auto;
+	width: 100%;
+
+}
+
+/*Thumbnail Styles*/
+.thumbnails {
+	margin-right:-15px;;
+}
+.thumbnails a{
+	float:left;
+	width: 25%;
+	padding-right: 15px;
+	padding-top: 15px;
+	box-sizing: border-box;
+}
+.thumbnails img{
+	transition: all .2s ease-in-out;
+}
+
+.thumbnails:hover img {
+	opacity: .6;
+	transform: scale(.92);
+}
+	
+.thumbnails img:hover{
+	opacity: 1;
+	transform: scale(1) rotate(2deg);
+	box-shadow: 0 0 7px rgba(0,0,0, .5);
+}
+
+</style>
